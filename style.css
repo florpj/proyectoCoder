@@ -13,14 +13,14 @@ h1 span {
 }
 
 /* Estilos header */
-header {
+/* header {
     display: flex;
     background-color: #FDFDFD;
     height: 12vh;
     align-items: center;
     justify-content: space-between;
     padding-top: 0.5%;
-}
+} */
 
 .logotipo {
     padding-left: 2rem;
@@ -73,7 +73,7 @@ ul {
     background-color: #6FB6AB;
     box-shadow: 3px 3px #64F6DB;
     /* padding: 10px 40px 10px 20px; */
-    width: 500px;
+    /* width: 500px; */
 }
 
 /* .texto_ribbon {
