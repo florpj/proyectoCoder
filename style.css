@@ -16,7 +16,6 @@ h1 span {
 /* header {
     display: flex;
     background-color: #FDFDFD;
-    height: 12vh;
     align-items: center;
     justify-content: space-between;
     padding-top: 0.5%;
@@ -26,17 +25,22 @@ h1 span {
     padding-left: 2rem;
 }
 
-.logotipo img {
-    width: 150px;
+.logotipo{
+    width: 170px;
 }
 
 
 
 /* Estilo de nav */
-nav {
+/* nav {
     display: flex;
 
-}
+} */
+ .navegacion{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+ }
 
 .menu {
     width: 40vw;
@@ -52,7 +56,7 @@ ul {
 .menu ul {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 .menu a,
