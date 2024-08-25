@@ -133,7 +133,9 @@ ul {
     background-size: cover;
     height: 90vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .contenedor_carr_texto h1 {
@@ -141,7 +143,7 @@ ul {
 }
 
 .imagen_pg_ppal {
-    width: 33vw;
+    height: 70%;
 }
 
 .contenedor_frase_index {
