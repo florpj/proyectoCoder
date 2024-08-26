@@ -138,8 +138,27 @@ ul {
 
 .contenedor_frase_index {
     height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
+.contenedor_frase_index h2,
+.contenedor_frase_index h2 span{
+    Font-family: "Calistoga", serif;
+    font-size: 1.5rem;
+    color:#B000DF;
+}
+.texto_fondo_verde {
+    background: linear-gradient(to top, #FFFFFF00 25%, #64F6DB 0, 60%, #FFFFFF00 0%);
+}
+
+.cont_frase_mot{
+    width: 70%;
+    font: 2.5rem;
+    text-align: center;
+}
 .contenedor_alumnos {
     display: flex;
     flex-direction: row;
