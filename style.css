@@ -1,8 +1,13 @@
+@font-face {
+    font-family: "Handy Casual";
+    src: url("fuente/HandyCasualCondensed-Regular.otf");
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: "Just Another Hand", cursive;
+    font-family: "Handy Casual", "Just Another Hand", cursive;
     font-size: 1.1rem;
 }
 
@@ -13,11 +18,11 @@ h1 span {
 }
 
 /* Estilos header */
-header {
+/* header {
     background-color: #FDFDFD;
     align-items: center;
     padding-top: 0.5%;
-}
+} */
 
 .logotipo {
     padding-left: 2rem;
@@ -47,6 +52,7 @@ ul {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    column-gap: 1.2rem;
 }
 
 .menu a,
@@ -60,13 +66,23 @@ ul {
     padding: 12px 20px;
     background-color: #ffffff;
     font-weight: 350;
+    text-align: center;
+}
+
+.menu a:hover {
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 12px 20px;
+    background-color: #9034A9;
+    font-weight: 350;
+    text-align: center;
 }
 
 .menu .contacto_menu {
     color: #FFFFFF;
     background-color: #6FB6AB;
     box-shadow: 3px 3px #64F6DB;
-    /* padding: 10px 40px 10px 20px; */
+    padding: 10px 40px 10px 20px;
     /* width: 500px; */
 }
 
@@ -139,71 +155,49 @@ ul {
 .contenedor_frase_index {
     height: 50vh;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
 .contenedor_frase_index h2,
-.contenedor_frase_index h2 span{
+.contenedor_frase_index h2 span {
     Font-family: "Calistoga", serif;
-    font-size: 1.5rem;
-    color:#B000DF;
+    font-size: 1.3rem;
+    color: #B000DF;
 }
+
 .texto_fondo_verde {
     background: linear-gradient(to top, #FFFFFF00 25%, #64F6DB 0, 60%, #FFFFFF00 0%);
 }
 
-.cont_frase_mot{
+.cont_frase_mot {
     width: 70%;
-    font: 2.5rem;
+    font: 1rem;
     text-align: center;
 }
-.contenedor_alumnos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 60vh;
+
+.contenedor_alumnos{
+    padding: 2rem 0;
     background-color: #65beb1;
 }
 
-.tarjetas_alumnos {
-    width: 20%;
-    height: 80%;
+.tarjetas_alumnos{
     background-color: white;
     border-radius: 5%;
-    font-size: 14px;
-    box-shadow: 5px 5px 5px grey;
+    padding: .5rem;
+    width: 60vw;
 }
 
 .tarjetas_alumnos img {
-    width: 50%;
-    border-radius: 90%;
+    border-radius: 50%;
 }
-
-@media only screen and (min-width: 1024px) {
-    * {
-        font-size: 1.2rem;
-    }
-    .imagen_pg_ppal {
-        height: 70%;
-    }
-
-    h1,
-    h1 span {
-        font-size: 3rem;
-    }
-
-    .excel {
-        font-size: 3rem;
-    }
-    .contenedor_carr{
-        column-gap: 2%;
-    }
-
+.tarjetas_alumnos p{
+    font-size: 1rem;
 }
-
+.fila_contenedor_alum{
+    margin: 0;
+}
 /* Estilo de footer */
 .contenedor_footer {
     display: flex;
@@ -251,4 +245,45 @@ ul {
 .main_cursos,
 .main_empresas {
     height: 80vh;
+}
+
+/* responsive laptop */
+@media only screen and (min-width: 1024px) {
+    * {
+        font-size: 1.2rem;
+    }
+
+    .imagen_pg_ppal {
+        height: 70%;
+    }
+
+    h1,
+    h1 span {
+        font-size: 3rem;
+    }
+
+    .excel {
+        font-size: 3rem;
+    }
+
+    .contenedor_carr {
+        column-gap: 2%;
+    }
+
+    .contenedor_frase_index h2,
+    .contenedor_frase_index h2 span {
+        font-size: 2rem;
+    }
+
+    .cont_frase_mot {
+        font: 2.3rem;
+    }
+
+    .tarjetas_alumnos{
+        width: 20vw;
+        padding: 1rem;
+    }
+    .tarjetas_alumnos p{
+        font-size: 1rem;
+    }
 }
