@@ -13,13 +13,11 @@ h1 span {
 }
 
 /* Estilos header */
-/* header {
-    display: flex;
+header {
     background-color: #FDFDFD;
     align-items: center;
     padding-top: 0.5%;
-} */
-} */
+}
 
 .logotipo {
     padding-left: 2rem;
