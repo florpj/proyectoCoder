@@ -177,12 +177,12 @@ ul {
     text-align: center;
 }
 
-.contenedor_alumnos{
+.contenedor_alumnos {
     padding: 2rem 0;
     background-color: #65beb1;
 }
 
-.tarjetas_alumnos{
+.tarjetas_alumnos {
     background-color: white;
     border-radius: 5%;
     padding: .5rem;
@@ -192,29 +192,49 @@ ul {
 .tarjetas_alumnos img {
     border-radius: 50%;
 }
-.tarjetas_alumnos p{
+
+.tarjetas_alumnos p {
     font-size: 1rem;
 }
-.fila_contenedor_alum{
+
+.fila_contenedor_alum {
     margin: 0;
 }
+
 /* Estilo de footer */
 .contenedor_footer {
     display: flex;
-    height: 20vh;
+    height: auto;
+    justify-content: space-around;
+    width: 100%;
+    padding: .5rem;
+    align-items: center;
 }
 
 .contenedor_logo_redes {
-    height: 80%;
+    width: 50%;
 }
 
 .logo_footer {
-    height: 90%;
+    height: 110px;
 }
 
 .redes img {
-    height: 5%;
-    width: 5%;
+    width: 30%;
+}
+
+.redes {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    text-align: center;
+}
+
+.menu_footer a {
+    color: #000000;
 }
 
 /* Estilos de recursos */
@@ -279,11 +299,30 @@ ul {
         font: 2.3rem;
     }
 
-    .tarjetas_alumnos{
+    .tarjetas_alumnos {
         width: 20vw;
         padding: 1rem;
     }
-    .tarjetas_alumnos p{
+
+    .tarjetas_alumnos p {
         font-size: 1rem;
+    }
+
+    .logo_footer {
+        height: 150px;
+    }
+
+    .redes {
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .menu_footer {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 1.5rem;
     }
 }
