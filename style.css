@@ -15,6 +15,7 @@ h1,
 h1 span {
     Font-family: "Calistoga", serif;
     font-size: 2rem;
+    color: #FFFFFF;
 }
 
 /* Estilos header */
@@ -130,9 +131,7 @@ ul {
         0px -2px 0px white;
 }
 
-.main_header {
-    height: 100vh;
-}
+
 
 .contenedor_carr {
     background-image: url(/imagenes/fondo.png);
@@ -197,7 +196,7 @@ ul {
     font-size: 1rem;
 }
 
-.fila_contenedor_alum {
+.fila_contenedor_alumn{
     margin: 0;
 }
 
@@ -238,24 +237,22 @@ footer p {
 }
 
 /* Estilos de recursos */
-.header_recursos {
-    height: 10vh;
-    background-color: white;
-}
 
 .titulo_recursos {
     height: 30vh;
     background-color: #65beb1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.titulo_recursos h1 {
-    color: white;
+.titulo_recursos h1{
     text-align: center;
-    font-size: 3rem;
 }
 
 .contenedor_recursos {
-    width: 50%;
+    width: 80%;
+    padding: 2rem;
 }
 
 .contenedor_recursos img {
