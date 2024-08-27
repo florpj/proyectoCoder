@@ -52,22 +52,23 @@
 
 
     <main>
-        <section>
-            <h1>Contactanos</h1>
-            <p>Envia tu consulta y en breve nos comunicaremos...</p>
+        <section class="contenedor_contacto titulo_recursos">
+            <h1><span class="texto_fondo_violeta">Contactanos</span></h1>
+            <p class="text-white">Envia tu consulta y en breve nos comunicaremos...</p>
             <form action="" class="contacto_formulario">
-                <div>
-                    <input type="text" name="nombre" placeholder="Nombre">
-                    <input type="email" name="mail" placeholder="E-mail">
+                <div class="form-group d-flex flex-column flex-md-row justify-content-center">
+                    <input type="text" class="form-control m-2" name="nombre" placeholder="Nombre">
+                    <input type="email" class="form-control m-2" name="mail" placeholder="E-mail">
                 </div>
                 <div>
-                    <textarea name="consulta" id="consulta">Escriba aqui su consulta</textarea>
+                    <textarea name="consulta" class="mensaje_form form-control m-2" id="consulta">Escriba aqui su consulta</textarea>
                 </div>
                 <div>
-                    <input type="submit" value="Enviar...">
+                    <button type="button" class="color_ppal_verde btn btn-outline-light m-2">Enviar...</button>
                 </div>
             </form>
         </section>
+
     </main>
 
     <footer>
