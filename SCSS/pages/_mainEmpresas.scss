@@ -1,3 +1,56 @@
 .main_empresas {
-    height: 80vh;
+    height: auto;
+
+    .titulo_empresas {
+        height: 45vh;
+        background-color: $colorVerdeOscuro;
+        @include flexDisplay(center, center);
+        flex-direction: column;
+        @extend %textoCentro;
+        padding: 10%;
+
+        h2 {
+            color: #ffffff;
+        }
+    }
+
+    .parrafEmpresas {
+        margin: 15%;
+        @extend %textoCentro;
+    }
+
+    .cardEmpresas {
+        background-color: $colorVerdeOscuro;
+        padding: 7%;
+
+        h2 {
+            font-family: $fuentePpal;
+            color: #ffffff;
+            @extend %textoCentro;
+            margin-bottom: 2rem;
+        }
+
+        .contenedorCardVent {
+            @include flexDisplay(space-around, flex-start);
+            flex-wrap: wrap;
+            gap: 1rem;
+            .cardVentajasEmp {
+                @extend %textoCentro;
+                @include flexDisplay(flex-start, null);
+                flex-direction: column;
+                h3,h4{
+                    font-family: $fuentePpal;
+                    color: #ffffff;
+                    span{
+                        font-family: $fuentePpal;
+                        color: #ffffff;
+                        font-size: 2rem;
+                    }
+                }
+
+            }
+        }
+
+    }
+
 }

@@ -16,7 +16,7 @@
             margin: 2%;
             padding: 3%;
             @include flexDisplay(space-around, center);
-            flex-direction: column-reverse;
+            flex-direction: column;
             background-color: $colorVerdeClaro;
             border-radius: 20px;
             

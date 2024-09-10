@@ -4,7 +4,7 @@ h1 span, h1 {
   color: #FFFFFF;
 }
 
-.titulo_recursos h1, .main_cursos section .cardCurso .descCurso h2, .main_cursos section .cardCurso .descCurso p, .main_cursos h1, .main_cursos p, .cont_frase_mot, footer p, .menu a {
+.titulo_recursos h1, .main_empresas .cardEmpresas .contenedorCardVent .cardVentajasEmp, .main_empresas .cardEmpresas h2, .main_empresas .parrafEmpresas, .main_empresas .titulo_empresas, .main_cursos section .cardCurso .descCurso h2, .main_cursos section .cardCurso .descCurso p, .main_cursos h1, .main_cursos p, .cont_frase_mot, footer p, .menu a {
   text-align: center;
 }
 
@@ -220,7 +220,7 @@ ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction: column-reverse;
+  flex-direction: column;
   background-color: #64F6DB;
   border-radius: 20px;
 }
@@ -238,7 +238,52 @@ ul {
 }
 
 .main_empresas {
-  height: 80vh;
+  height: auto;
+}
+.main_empresas .titulo_empresas {
+  height: 45vh;
+  background-color: #65beb1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10%;
+}
+.main_empresas .titulo_empresas h2 {
+  color: #ffffff;
+}
+.main_empresas .parrafEmpresas {
+  margin: 15%;
+}
+.main_empresas .cardEmpresas {
+  background-color: #65beb1;
+  padding: 7%;
+}
+.main_empresas .cardEmpresas h2 {
+  font-family: "Calistoga", serif;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+.main_empresas .cardEmpresas .contenedorCardVent {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.main_empresas .cardEmpresas .contenedorCardVent .cardVentajasEmp {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.main_empresas .cardEmpresas .contenedorCardVent .cardVentajasEmp h3, .main_empresas .cardEmpresas .contenedorCardVent .cardVentajasEmp h4 {
+  font-family: "Calistoga", serif;
+  color: #ffffff;
+}
+.main_empresas .cardEmpresas .contenedorCardVent .cardVentajasEmp h3 span, .main_empresas .cardEmpresas .contenedorCardVent .cardVentajasEmp h4 span {
+  font-family: "Calistoga", serif;
+  color: #ffffff;
+  font-size: 2rem;
 }
 
 .titulo_recursos {
@@ -322,6 +367,16 @@ ul {
   }
   .cardCurso .imgCurso {
     width: 40%;
+  }
+  .main_empresas .parrafEmpresas {
+    margin: 7% 10%;
+    font-size: 1.4rem;
+  }
+  .main_empresas .cardEmpresas .contenedorCardVent {
+    flex-wrap: nowrap;
+  }
+  .main_empresas .cardEmpresas .contenedorCardVent .cardVentajasEmp {
+    width: 35%;
   }
 }
 

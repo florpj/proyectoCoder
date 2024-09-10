@@ -49,6 +49,9 @@
     .redes {
         width: 150px;
     }
+
+
+
 }
 
 /* TABLET */
@@ -68,9 +71,28 @@
     .cardCurso {
         flex-direction: row !important;
 
-        .imgCurso{
+        .imgCurso {
             width: 40%;
         }
+    }
+
+    .main_empresas {
+        .parrafEmpresas{
+            margin: 7% 10%;
+            font-size: 1.4rem;
+        }
+
+        .cardEmpresas {
+            .contenedorCardVent {
+                flex-wrap: nowrap;
+
+                .cardVentajasEmp {
+                    width:35%;
+                }
+            }
+
+        }
+
     }
 
 
