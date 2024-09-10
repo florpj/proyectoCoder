@@ -173,7 +173,7 @@ ul {
   color: #B000DF;
 }
 .contenedor_frase_index h2 span {
-  Font-family: "Calistoga", serif;
+  font-family: "Calistoga", serif;
   font-size: 1.3rem;
   color: #B000DF;
 }
@@ -289,7 +289,7 @@ ul {
     font-size: 2rem;
   }
   .cont_frase_mot {
-    font: 2.3rem;
+    font-size: 1.3rem;
   }
   .tarjetas_alumnos {
     width: 20vw;
