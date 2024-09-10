@@ -66,11 +66,10 @@
 
 
     .cardCurso {
-        flex-direction:row;
+        flex-direction: row !important;
 
         .imgCurso{
-            width: 40%; 
-            // height: auto;
+            width: 40%;
         }
     }
 

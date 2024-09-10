@@ -216,7 +216,7 @@ ul {
 }
 .main_cursos section .cardCurso {
   margin: 2%;
-  padding: 10%;
+  padding: 3%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -318,7 +318,7 @@ ul {
     width: -webkit-fill-available;
   }
   .cardCurso {
-    flex-direction: row;
+    flex-direction: row !important;
   }
   .cardCurso .imgCurso {
     width: 40%;

@@ -14,15 +14,16 @@
 
         .cardCurso{
             margin: 2%;
-            padding: 10%;
+            padding: 3%;
             @include flexDisplay(space-around, center);
             flex-direction: column-reverse;
             background-color: $colorVerdeClaro;
             border-radius: 20px;
-        
+            
             .imgCurso{
                 // width: 40%; 
                 height: 130px;
+
             }
 
             .descCurso{
