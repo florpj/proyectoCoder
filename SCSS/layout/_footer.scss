@@ -1,0 +1,40 @@
+/* Estilo de footer */
+.contenedor_footer {
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    width: 100%;
+    padding: .5rem;
+    align-items: center;
+}
+
+.contenedor_logo_redes {
+    width: 50%;
+}
+
+.logo_footer {
+    height: 110px;
+}
+
+
+.redes {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    img {
+        width: 30%;
+    }
+}
+
+footer{
+    p {
+        @extend %textoCentro;
+    }
+}
+
+.menu_footer {
+    a {
+    color: #000000;
+    text-decoration: none;
+    }
+}

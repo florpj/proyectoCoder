@@ -1,0 +1,81 @@
+/* Estilo de main */
+.texto_fondo_violeta {
+    background: linear-gradient(to top, #FFFFFF00 15%, $colorVioletaClaro 0, 70%, #FFFFFF00 0%);
+}
+
+.excel {
+    font-family: $fuentePpal;
+    font-size: nth($list: $fuenteTamaño, $n:2 );
+    color: $colorVerdeClaro;
+    text-shadow: 0px 0px 0px white,
+        0px 0px 0px white,
+        -2px 0px 0px white,
+        0px -2px 0px white;
+}
+
+.contenedor_carr {
+    background-image: url(../imagenes/fondo.png);
+    background-size: cover;
+    height: 90vh;
+    @include flexDisplay(center, center);
+    flex-wrap: wrap;
+}
+
+.contenedor_carr_texto h1 {
+    color: #ffffff;
+}
+
+.imagen_pg_ppal {
+    height: 40%;
+}
+
+.contenedor_frase_index {
+    height: 50vh;
+    @include flexDisplay(center, center);
+    flex-direction: column;
+}
+
+.contenedor_frase_index {
+    h2 {
+        Font-family: $fuentePpal;
+        font-size: 1.3rem;
+        color: $colorVioletaClaro;
+        span {
+            Font-family: $fuentePpal;
+            font-size: 1.3rem;
+            color: $colorVioletaClaro;
+        }
+    }
+}
+
+.texto_fondo_verde {
+    background: linear-gradient(to top, #FFFFFF00 25%, $colorVerdeClaro 0, 60%, #FFFFFF00 0%);
+}
+
+.cont_frase_mot {
+    font-size: nth($fuenteTamaño, 1);
+    @extend %textoCentro;
+}
+
+.contenedor_alumnos {
+    padding: 2rem 0;
+    background-color: $colorVerdeOscuro;
+}
+
+.tarjetas_alumnos {
+    background-color: white;
+    border-radius: 5%;
+    padding: .5rem;
+    width: 60vw;
+    img {
+        border-radius: 50%;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+
+.fila_contenedor_alumn{
+    margin: 0;
+}

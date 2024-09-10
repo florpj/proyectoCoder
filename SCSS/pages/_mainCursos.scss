@@ -1,0 +1,40 @@
+
+.main_cursos{
+    height: auto;
+    background-color: $colorVerdeOscuro;
+    padding: 10%;
+    font-size: 1.2rem;
+
+
+    h1, p{
+        @extend %textoCentro;
+    }
+    section{
+
+
+        .cardCurso{
+            margin: 2%;
+            padding: 10%;
+            @include flexDisplay(space-around, center);
+            flex-direction: column-reverse;
+            background-color: $colorVerdeClaro;
+            border-radius: 20px;
+        
+            .imgCurso{
+                // width: 40%; 
+                height: 130px;
+            }
+
+            .descCurso{
+                @include flexDisplay(center, center);
+                flex-direction: column;
+
+                h2, p{
+                    width: 100%;
+                    @extend %textoCentro;
+                }
+            }
+        }
+    }
+
+}

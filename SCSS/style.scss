@@ -1,0 +1,12 @@
+@import './utilities/variables';
+@import './utilities/mixins';
+@import './utilities/extends';
+@import './layout/base';
+@import './layout/header';
+@import './layout/footer';
+@import './pages/mainHome';
+@import './pages/mainCursos';
+@import './pages/mainEmpresas';
+@import './pages/mainRecursos';
+@import './pages/mainContacto';
+@import './utilities/mediaquery';

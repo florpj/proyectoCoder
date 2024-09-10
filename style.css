@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "Handy Casual";
     src: url("fuente/HandyCasualCondensed-Regular.otf");
 }
@@ -16,7 +16,7 @@ h1 span {
     Font-family: "Calistoga", serif;
     font-size: 2rem;
     color: #FFFFFF;
-}
+} */
 
 /* Estilos header */
 /* header {
@@ -72,11 +72,11 @@ ul {
 
 .menu a:hover {
     color: #FFFFFF;
-    border-radius: 50px;
-    padding: 12px 20px;
+    /* border-radius: 50px;
+    padding: 12px 20px; */
     background-color: #9034A9;
-    font-weight: 350;
-    text-align: center;
+    /* font-weight: 350;
+    text-align: center; */
 }
 
 .menu .contacto_menu {
@@ -117,6 +117,7 @@ ul {
 } */
 
 /* Estilo de main */
+/* 
 .texto_fondo_violeta {
     background: linear-gradient(to top, #FFFFFF00 15%, #B000DF 0, 70%, #FFFFFF00 0%);
 }
@@ -198,7 +199,7 @@ ul {
 
 .fila_contenedor_alumn{
     margin: 0;
-}
+} */
 
 /* Estilo de footer */
 .contenedor_footer {

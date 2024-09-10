@@ -1,0 +1,20 @@
+// Estilos de pagina RECURSOS
+.titulo_recursos {
+    height: 30vh;
+    background-color: $colorVerdeOscuro;
+    @include flexDisplay(center,center);
+    h1{
+        @extend %textoCentro;
+    }
+}
+
+.contenedor_recursos {
+    width: 80%;
+    padding: 2rem;
+}
+
+.contenedor_recursos{
+    img {
+    width: 50%;
+    }
+}

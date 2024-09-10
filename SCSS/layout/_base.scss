@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Handy Casual";
+    src: url(../fuente/HandyCasualCondensed-Regular.otf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: $fuenteGeneral;
+    font-size: 1.1rem;
+}
+
+h1{
+    @extend %tituloH1;
+    
+    span{
+        @extend %tituloH1;
+    }
+}
+
+ul {
+    list-style: none;
+    color: $colorVioletaClaro;
+}

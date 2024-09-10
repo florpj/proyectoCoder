@@ -1,0 +1,74 @@
+// Estilos de header
+
+.logotipo {
+    padding-left: 2rem;
+    width: 170px;
+}
+
+.navegacion {
+    width: 100%;
+    @include flexDisplay(space-between, center);
+}
+
+.menu {
+    width: 40vw;
+    font-weight: 600;
+    ul {
+        width: 100%;
+        @include flexDisplay(flex-end,null);
+        column-gap: 1.2rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: $colorVioletaOscuro;
+        border-radius: 50px;
+        padding: 12px 20px;
+        background-color: #ffffff;
+        font-weight: 350;
+        @extend %textoCentro;
+        &:hover{
+            color: #FFFFFF;
+            background-color: $colorVioletaOscuro;
+        }
+    }
+    .contacto_menu{
+        color: #FFFFFF;
+        background-color: $colorVerdeOscuro;
+        box-shadow: 3px 3px $colorVerdeClaro;
+        padding: 10px 40px 10px 20px;
+        &:hover{
+            box-shadow: 3px 3px $colorVioletaClaro;
+        }
+    }
+}
+
+
+/* .texto_ribbon {
+    font-size: 2.5rem;
+    color: #6fb6ab;
+}
+
+.contenedor_ribbon {
+    position: relative;
+    z-index: 1;
+    top: -29px;
+    left: 70px;
+}
+
+.cuadrado {
+    height: 20px;
+    width: 20px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.triangulo {
+    width: 0;
+    border-left: 10px solid transparent;
+    border-top: 10px solid #ffffff;
+    border-right: 10px solid transparent;
+} */

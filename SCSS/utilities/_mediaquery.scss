@@ -1,0 +1,78 @@
+/* LAPTOP */
+@media only screen and (min-width: 1024px) {
+    * {
+        font-size: 1.2rem;
+    }
+
+    .imagen_pg_ppal {
+        height: 70%;
+    }
+
+    h1 {
+        font-size: nth($fuenteTamaño, 3);
+
+        span {
+            font-size: nth($fuenteTamaño, 3);
+        }
+    }
+
+    .excel {
+        font-size: nth($fuenteTamaño, 3);
+    }
+
+    .contenedor_carr {
+        column-gap: 2%;
+    }
+
+    .contenedor_frase_index h2,
+    .contenedor_frase_index h2 span {
+        font-size: nth($fuenteTamaño, 2);
+    }
+
+    .cont_frase_mot {
+        font: 2.3rem;
+    }
+
+    .tarjetas_alumnos {
+        width: 20vw;
+        padding: 1rem;
+
+        p {
+            font-size: nth($fuenteTamaño, 1);
+        }
+    }
+
+    .logo_footer {
+        height: 150px;
+    }
+
+    .redes {
+        width: 150px;
+    }
+}
+
+/* TABLET */
+
+@media only screen and (min-width: 760px) {
+    .menu_footer {
+        height: 100%;
+        @include flexDisplay(space-between, center);
+        column-gap: 1.5rem;
+    }
+
+    .mensaje_form {
+        width: -webkit-fill-available;
+    }
+
+
+    .cardCurso {
+        flex-direction:row;
+
+        .imgCurso{
+            width: 40%; 
+            // height: auto;
+        }
+    }
+
+
+}
