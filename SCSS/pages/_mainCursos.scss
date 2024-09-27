@@ -8,6 +8,7 @@
 
     h1, p{
         @extend %textoCentro;
+        color: #FFFFFF;
     }
     section{
 
@@ -17,11 +18,10 @@
             padding: 3%;
             @include flexDisplay(space-around, center);
             flex-direction: column;
-            background-color: $colorVerdeClaro;
+            background-color: #ffffff25;
             border-radius: 20px;
             
             .imgCurso{
-                // width: 40%; 
                 height: 130px;
 
             }
@@ -33,6 +33,10 @@
                 h2, p{
                     width: 100%;
                     @extend %textoCentro;
+                    color: #FFFFFF;
+                    span{
+                        font-size: 2rem;
+                    }
                 }
             }
         }

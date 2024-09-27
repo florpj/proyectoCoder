@@ -9,12 +9,12 @@
 }
 
 .contenedor_recursos {
-    width: 80%;
+    width: 90%;
     padding: 2rem;
-}
 
-.contenedor_recursos{
-    img {
-    width: 50%;
+    .botonDescarga{
+        background-color: $colorVioletaClaro;
+        border-color: $colorVioletaClaro;
+        margin-bottom: 0.5rem;
     }
 }

@@ -214,6 +214,9 @@ ul {
   padding: 10%;
   font-size: 1.2rem;
 }
+.main_cursos h1, .main_cursos p {
+  color: #FFFFFF;
+}
 .main_cursos section .cardCurso {
   margin: 2%;
   padding: 3%;
@@ -221,7 +224,7 @@ ul {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  background-color: #64F6DB;
+  background-color: rgba(255, 255, 255, 0.1450980392);
   border-radius: 20px;
 }
 .main_cursos section .cardCurso .imgCurso {
@@ -235,6 +238,10 @@ ul {
 }
 .main_cursos section .cardCurso .descCurso h2, .main_cursos section .cardCurso .descCurso p {
   width: 100%;
+  color: #FFFFFF;
+}
+.main_cursos section .cardCurso .descCurso h2 span, .main_cursos section .cardCurso .descCurso p span {
+  font-size: 2rem;
 }
 
 .main_empresas {
@@ -294,12 +301,13 @@ ul {
   align-items: center;
 }
 .contenedor_recursos {
-  width: 80%;
+  width: 90%;
   padding: 2rem;
 }
-
-.contenedor_recursos img {
-  width: 50%;
+.contenedor_recursos .botonDescarga {
+  background-color: #B000DF;
+  border-color: #B000DF;
+  margin-bottom: 0.5rem;
 }
 
 /* Estilos de pagina contacto */
